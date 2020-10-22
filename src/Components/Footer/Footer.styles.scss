@@ -1,0 +1,42 @@
+.footer-content{
+    background-color: slategrey;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0 40px 110px;
+    ul {
+        width: 33%;
+        margin: 0;
+        padding: 0;
+        li{
+            color: whitesmoke;
+            font-size: 14px;
+            line-height: 2;
+            text-align: left;
+        }
+    }
+    .footer-logo{
+        width: 30%;
+    }
+    .addredd{
+        width: 57%;
+        span{
+            display: block;
+        }
+    }
+    .contact-details{
+        margin-top: 25px;
+        span{
+            display: block;
+        }
+    }
+}
+@media screen and (max-width: 767px) {
+    .footer-content{
+        padding: 30px 10px;
+        ul {
+            li{
+                font-size: 7px;
+            }
+        }
+    }
+}
